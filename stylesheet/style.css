@@ -170,6 +170,13 @@ body {
     margin: 0 auto;
     background-color: rgb(255, 255, 255);
     padding: 10px 0;
+    min-width: 30%;
+    min-height: 80vh;
+    
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
 
 .phone_container {
@@ -179,6 +186,8 @@ body {
     background-color: rgba(201, 199, 199, 0.67);
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
+    min-width: 90%;
+    min-height: 80vh;
     /* min-height: 100vh; */
 }
 
@@ -187,6 +196,7 @@ body>* {
     padding: 10px 16px;
     color: rgba(0, 0, 0, 0.844);
     user-select: none;
+
 }
 
 
@@ -214,6 +224,8 @@ body>* {
 
 .main {
     width: 100%;
+    min-width: 100%;
+    flex-grow: 1;
 }
 
 .scanner_card {
