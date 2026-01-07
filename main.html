@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="pictures/logos/paypay_logo.png">
+    <title>PayPay Dummy Screen</title>
+</head>
+
+<body class="borderradius bodyelement">
+
+    <section class="phone_container homepage dflex flexcolumn jcenter acenter">
+
+        <header class="header dflex jspacebetween base_img_size_container">
+            <div class="logo dflex" onclick="location.reload()">
+                <img src="pictures/logos/paypay_logo.png" alt="paypay_logo">
+                <p class="ascenter">&nbsp;PayPay</p>
+            </div>
+
+            <button class="notification borderradiuslow" onclick="hideAllSections('notification_page', 'block')">
+                <img src="pictures/logos/notification.png" alt="bell_icon">
+            </button>
+        </header>
+
+
+        <main class="dflex main flexcolumn acenter">
+
+            <section class="scanners scanner_card dflex flexcolumn borderradiuslow">
+
+                <div class="barcode_container flexrow">
+                    <img class="barcode" src="pictures/logos/barcode.png" alt="barcode.png">
+                </div>
+
+                <div class="qr_and_texts dflex acenter jspaceevenly">
+                    <img src="pictures/logos/qrcode.png" alt="qr_code.png" class="large_img_size_container">
+
+                    <div class="smallest_img_size_container dflex flexcolumn texts">
+                        <p class="dflex">Payment Method </p>
+                        <div class="dflex"><img src="pictures/logos/paypay_balance.png" alt="balance.png"
+                                class="smallest_img_size">&nbsp;PayPay Balance</div>
+                        <p class="dflex tap_option" onclick="hideAllSections('tap_page', 'block')">Tap&nbsp;<img
+                                src="pictures/logos/tap.png" alt="tap_logo.png"
+                                class="smallest_img_size borderradiuslow"></p>
+                    </div>
+                </div>
+
+            </section>
+
+
+            <section class="quick_options dflex base_img_size_container jspaceevenly borderradiuslow">
+                <div class="dflex flexcolumn acenter" onclick="hideAllSections('scan_page', 'block')">
+                    <img src="pictures/logos/scan.png" alt="scan_logo.png">
+                    <p>Scan</p>
+                </div>
+                <div class="dflex flexcolumn acenter qasend" onclick="hideAllSections('send_page', 'block')">
+                    <img src="pictures/logos/send.png" alt="send_logo.png">
+                    <p>Send</p>
+                </div>
+                <div class="dflex flexcolumn acenter" onclick="hideAllSections('points_page', 'flex')">
+                    <img src="pictures/logos/points.png" alt="points_logo.png">
+                    <p>Points</p>
+                </div>
+                <div class="dflex flexcolumn acenter" onclick="hideAllSections('history_page', 'flex')">
+                    <img src="pictures/logos/history.png" alt="history_logo.png">
+                    <p>History</p>
+                </div>
+                <div class="dflex flexcolumn acenter" onclick="hideAllSections('topup_page', 'flex')">
+                    <img src="pictures/logos/topup.png" alt="topup_logo.png">
+                    <p>Topup</p>
+                </div>
+            </section>
+
+
+            <section class="all_options borderradiuslow dflex flexcolumn acenter">
+
+                <div class=" base_img_size_container all_options_row_first ">
+                    <div class="dflex flexcolumn acenter" onclick="hideAllSections('coupon_page', 'block')">
+                        <img src="pictures/logos/coupon.png" alt="coupon.png">
+                        <p>Coupons</p>
+                    </div>
+                    <div class="dflex flexcolumn acenter" onclick="hideAllSections('bills_page', 'block')">
+                        <img src="pictures/logos/bills.png" alt="bills.png">
+                        <p>Bills/Taxes</p>
+                    </div>
+                    <div class="dflex flexcolumn acenter" onclick="hideAllSections('stampcard_page', 'block')">
+                        <img src="pictures/logos/stamp_card.png" alt="stamp_card.png">
+                        <p>Stamp Card</p>
+                    </div>
+                    <div class="dflex flexcolumn acenter" onclick="hideAllSections('shopping_page', 'block')">
+                        <img src="pictures/logos/shopping.png" alt="shopping.png">
+                        <p>Shopping</p>
+                    </div>
+                </div>
+
+                <div class="base_img_size_container all_options_row_second">
+                    <div class="dflex flexcolumn acenter" onclick="hideAllSections('mileage_page', 'block')">
+                        <img src="pictures/logos/mileage.png" alt="lyp_mileage.png">
+                        <p>LYP Mileage</p>
+                    </div>
+                    <div class="dflex flexcolumn acenter" onclick="hideAllSections('phoneplans_page', 'block')">
+                        <img src="pictures/logos/phone_plans.png" alt="phone_plans.png">
+                        <p>Phone Plans</p>
+                    </div>
+                    <div class="dflex flexcolumn acenter" onclick="hideAllSections('favorites_page', 'block')">
+                        <img src="pictures/logos/favorites.png" alt="favorites">
+                        <p>Favorites</p>
+                    </div>
+                    <div class="dflex flexcolumn acenter" onclick="hideAllSections('all_page', 'block')">
+                        <img src="pictures/logos/all.png" alt="all.png">
+                        <p>All</p>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="financial_status dflex base_img_size_container flexcolumn borderradiuslow">
+
+                <div class="dflex jspacebetween acenter">
+                    <div class="dflex acenter">
+                        <img src="pictures/logos/paypay_logo.png" alt="">
+                        <p>&nbsp;Points Invested</p>
+                    </div>
+                    <span>22,100 pt</span>
+
+                </div>
+
+                <div class="dflex jspacebetween acenter">
+                    <div class="dflex acenter">
+                        <img src="pictures/logos/paypay_logo.png" alt="">
+                        <p>&nbsp;Available Credit</p>
+                    </div>
+                    <span>1,700,788 yen</span>
+
+                </div>
+
+                <div class="dflex jspacebetween acenter">
+                    <div class="dflex acenter">
+                        <img src="pictures/logos/paypay_balance.png" alt="">
+                        <p>&nbsp;PayPay Balance</p>
+                    </div>
+                    <span class="dflex add_bal_img_span"><h4>38,000</h4>&nbsp;yen&nbsp;
+                        <img src="pictures/logos/plus.png" alt="" class="add_bal_img"
+                            onclick="hideAllSections('topup_page', 'flex')">
+                    </span>
+
+                </div>
+
+            </section>
+
+
+        </main>
+
+    </section>
+
+    <!-- scanners containers -->
+    <section class="notification_page dnone minheight hiddensections">
+        <h2>Notifications</h2>
+        <section class="notifications_page">
+            <div class="notification_card">
+                <div class="notification_title">Payment Received</div>
+                <div class="notification_time">2 hours ago</div>
+                <div class="notification_message">You received ¥500 from John.</div>
+            </div>
+            <div class="notification_card">
+                <div class="notification_title">Offer Alert</div>
+                <div class="notification_time">Yesterday</div>
+                <div class="notification_message">Get 10% cashback on your next purchase.</div>
+            </div>
+            <div class="notification_card">
+                <div class="notification_title">Bill Reminder</div>
+                <div class="notification_time">3 days ago</div>
+                <div class="notification_message">Your electricity bill is due tomorrow.</div>
+            </div>
+            <div class="notification_card">
+                <div class="notification_title">Points Update</div>
+                <div class="notification_time">1 week ago</div>
+                <div class="notification_message">You earned 200 reward points.</div>
+            </div>
+            <div class="notification_card">
+                <div class="notification_title">Security Notice</div>
+                <div class="notification_time">2 weeks ago</div>
+                <div class="notification_message">Your password was changed successfully.</div>
+            </div>
+            <div class="notification_card">
+                <div class="notification_title">New Feature</div>
+                <div class="notification_time">1 month ago</div>
+                <div class="notification_message">Try our new QR code payment option.</div>
+            </div>
+        </section>
+    </section>
+
+    <section class="tap_page dnone minheight hiddensections">
+        <h2 class="dflex">
+            <img src="pictures/logos/paypay_logo.png" alt="" class="small_img_size">
+            &nbsp;Pay by Tapping
+        </h2>
+        <p>Payment Mode: PayPay Balance</p>
+        <p class="dflex">PayPay Balance: <span class="fontweightlow">&nbsp;<span class="tap_balance_amount">38,000</span> yen&nbsp;</span> <img
+                src="pictures/logos/plus.png" alt="" class="add_bal_img"
+                onclick="hideAllSections('topup_page','block')"></p>
+        <br>
+        <p class="dflex">Tap&nbsp;
+            <img src="pictures/logos/tap.png" alt="tap_logo.png" class="base_img_size borderradiuslow">
+        </p>
+        <br>
+        <img src="pictures/logos/tap_page.png" alt="balance.png" class="">
+
+    </section>
+
+
+
+    <!-- quick options -->
+    <section class="scan_page dnone minheight hiddensections">
+        <h2>Scan Page</h2>
+        <div class="scanner_box">
+            <div class="scanner_line"></div>
+            <p class="scanner_text">Scanning...</p>
+    </section>
+
+    <section class="send_page dnone minheight hiddensections borderradiuslow ">
+        <h2>Send Money</h2>
+        <form id="sendForm" class="send_form"> <label for="recipient">Recipient</label> <input type="text"
+                id="recipient" placeholder="Enter phone number or ID"> <label for="amount">Amount</label> <input
+                type="number" id="amount" placeholder="Enter amount"> <label for="note">Note (optional)</label>
+            <textarea id="note" placeholder="Add a message"></textarea>
+            <div class="send_money_warning"></div>
+
+            <button type="submit" class="send_btn" onclick="send_money_function(event);">Send</button>
+        </form>
+    </section>
+    <!-- Confirmation Page -->
+    <section class="send_success_page dnone minheight hiddensections borderradiuslow">
+        <div class="success_box">
+            <div class="checkmark">✔</div>
+            <h2>Send Successful!</h2>
+            <p>Your money has been sent.</p>
+        </div>
+    </section>
+
+    <section class="points_page dnone minheight hiddensections borderradiuslow">
+        <h2>My Points</h2>
+        <div class="points_balance">
+            <p class="balance_label">Current Balance</p>
+            <p class="balance_value">2,350 pts</p>
+        </div>
+        <div class="points_activity">
+            <h2>Recent Activity</h2>
+            <ul>
+                <li>+200 pts — Grocery Cashback</li>
+                <li>+50 pts — Daily Login Bonus</li>
+                <li>-100 pts — Redeemed for Coffee Voucher</li>
+                <li>+500 pts — Referral Reward</li>
+            </ul>
+        </div>
+        <div class="points_actions"> <button class="redeem_btn"
+                onclick="hideAllSections('shopping_page', 'block')">Redeem Points</button> </div>
+    </section>
+
+    <section class="history_page dnone minheight hiddensections borderradiuslow">
+        <h2>Transaction History</h2>
+
+        <div class="history_list">
+            <div class="history_item">
+                <div class="history_left">
+                    <p class="history_title">Payment Sent</p>
+                    <p class="history_date">Jan 1, 2026</p>
+                </div>
+                <div class="history_right debit">- ¥500</div>
+            </div>
+
+            <div class="history_item">
+                <div class="history_left">
+                    <p class="history_title">Payment Received</p>
+                    <p class="history_date">Dec 30, 2025</p>
+                </div>
+                <div class="history_right credit">+ ¥1,200</div>
+            </div>
+
+            <div class="history_item">
+                <div class="history_left">
+                    <p class="history_title">Top-up</p>
+                    <p class="history_date">Dec 28, 2025</p>
+                </div>
+                <div class="history_right credit">+ ¥2,000</div>
+            </div>
+
+            <div class="history_item">
+                <div class="history_left">
+                    <p class="history_title">Bill Payment</p>
+                    <p class="history_date">Dec 25, 2025</p>
+                </div>
+                <div class="history_right debit">- ¥800</div>
+            </div>
+        </div>
+
+    </section>
+
+    <!------------ common option --------------->
+    <section class="topup_page dnone minheight hiddensections borderradiuslow">
+        <h2>Top‑up Wallet</h2>
+
+        <form id="topupForm" class="topup_form">
+            <label for="amount">Amount</label>
+            <input type="number" id="amount_topup" placeholder="Enter amount to top‑up">
+
+            <label for="method">Payment Method</label>
+            <select id="method">
+                <option value="card">Credit/Debit Card</option>
+                <option value="bank">Bank Transfer</option>
+            </select>
+
+            <div class="top_up_warning"></div>
+
+            <button type="submit" class="topup_btn" onclick="top_up_function(event)">Top‑up</button>
+        </form>
+    </section>
+    <!-- Confirmation Page -->
+    <section class="topup_success dnone minheight hiddensections borderradiuslow">
+        <div class="success_box">
+            <div class="checkmark">✔</div>
+            <h2>Top‑up Successful!</h2>
+            <p>Your wallet has been credited.</p>
+        </div>
+
+    </section>
+
+
+
+    <!-- all options -->
+    <section class="coupon_page dnone minheight hiddensections">
+        <h2>Coupons</h2>
+        <div class="coupon_list">
+            <div class="coupon_item">
+                <h3>10% Off Grocery</h3>
+                <p>Valid until Jan 15, 2026</p>
+            </div>
+            <div class="coupon_item">
+                <h3>Buy 1 Get 1 Coffee</h3>
+                <p>Valid until Jan 10, 2026</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="bills_page dnone minheight hiddensections">
+        <h2>Pay Bills</h2>
+        <ul class="bills_list">
+            <li>Electricity — ¥1,200 <button value="1200">Pay</button></li>
+            <li>Water — ¥500 <button value="500">Pay</button></li>
+            <li>Internet — ¥999 <button value="999">Pay</button></li>
+        </ul>
+    </section>
+
+
+    <section class="stampcard_page dnone minheight hiddensections">
+        <h2>Stamp Card</h2>
+        <p>Collect 10 stamps to earn a free reward!</p>
+        <div class="stamps">
+            <span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span>
+            <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+        </div>
+    </section>
+
+
+    <section class="shopping_page dnone minheight hiddensections">
+        <h2>Shopping Deals</h2>
+        <div class="shopping_item">Smartphone — ¥25,000 <button>Buy</button></div>
+        <div class="shopping_item">Headphones — ¥2,500 <button>Buy</button></div>
+        <div class="shopping_warning">Insufficient Balance</div>
+    </section>
+
+
+    <section class="mileage_page dnone minheight hiddensections">
+        <h2>LYP Mileage</h2>
+        <p>You have 1,200 mileage points.</p>
+        <button>Redeem Mileage</button>
+    </section>
+
+
+    <section class="phoneplans_page dnone minheight hiddensections">
+        <h2>Phone Plans</h2>
+        <div class="plan">Prepaid — ¥299/month</div>
+        <div class="plan">Postpaid — ¥499/month</div>
+    </section>
+
+    <section class="favorites_page dnone minheight hiddensections">
+        <h2>Favorites</h2>
+        <ul>
+            <li>Pay Electricity Bill</li>
+            <li>Top‑up Wallet</li>
+            <li>Send Money to Rahul</li>
+        </ul>
+    </section>
+
+
+    <section class="all_page dnone minheight hiddensections">
+        <h2>All Services</h2>
+        <ul>
+            <li onclick="hideAllSections('send_page', 'block')">Send</li>
+            <li onclick="hideAllSections('points_page', 'block')">Points</li>
+            <li onclick="hideAllSections('history_page', 'block')">History</li>
+            <li onclick="hideAllSections('topup_page', 'block')">Top‑up</li>
+            <li onclick="hideAllSections('coupon_page', 'block')">Coupons</li>
+            <li onclick="hideAllSections('bills_page', 'block')">Bills</li>
+            <li onclick="hideAllSections('stampcard_page', 'block')">Stamp Card</li>
+            <li onclick="hideAllSections('shopping_page', 'block')">Shopping</li>
+            <li onclick="hideAllSections('mileage_page', 'block')">Mileage</li>
+            <li onclick="hideAllSections('phoneplans_page', 'block')">Phone Plans</li>
+            <li onclick="hideAllSections('favorites_page', 'block')">Favorites</li>
+        </ul>
+    </section>
+
+
+
+    <!-- navigation options -->
+    <section class="deals_page dnone minheight hiddensections">
+        <h2>Deals</h2>
+        <div class="deal_item">
+            <h2>50% Off Pizza</h2>
+            <p>Valid until Jan 15, 2026</p>
+            <button>Claim</button>
+        </div>
+        <div class="deal_item">
+            <h2>20% Off Electronics</h2>
+            <p>Valid until Jan 20, 2026</p>
+            <button>Claim</button>
+        </div>
+    </section>
+
+    <section class="wallet_page dnone minheight hiddensections">
+        <h2>Wallet</h2>
+        <div class="wallet_balance">
+            <p class="balance_label">Available Balance</p>
+            <p class="balance_value">¥<span class = "wallet_balance_amount">38,000</span></p>
+        </div>
+
+        <div class="wallet_actions">
+            <button onclick="hideAllSections('topup_page','block')">Top‑up</button>
+            <button onclick="hideAllSections('history_page','block')">Transaction History</button>
+        </div>
+    </section>
+
+
+    <section class="account_page dnone minheight hiddensections">
+        <h2>My Account</h2>
+        <div class="account_info">
+            <label for="nameInput">Name</label>
+            <input type="text" id="nameInput" value="Mnqn" disabled>
+            <br><br>
+            <label for="emailInput">Email</label>
+            <input type="email" id="emailInput" value="testemail@test.com" disabled>
+        </div>
+
+        <div class="account_actions">
+            <button id="editBtn" type="button" onclick="enableFields()">Edit Profile</button>
+            <button id="settingsBtn" type="button">Settings</button>
+            <button id="logoutBtn" type="button">Logout</button>
+        </div>
+    </section>
+
+
+
+
+
+    <nav class="dflex navigation base_img_size_container jspaceevenly acenter">
+        <div class="dflex flexcolumn acenter">
+            <img src="pictures/logos/home.png" alt="home.png" onclick="hideAllSections('homepage', 'block')">
+            <p>Home</p>
+        </div>
+        <div class="dflex flexcolumn acenter">
+            <img src="pictures/logos/deals.png" alt="deals.png" onclick="hideAllSections('deals_page', 'block')">
+            <p>Deals</p>
+        </div>
+        <div class="dflex flexcolumn acenter borderradiuslow middle_nav_pay"
+            onclick="hideAllSections('scan_page', 'flex')">
+            <img src="pictures/logos/pay.png" alt="pay.png">
+            <p>Pay</p>
+        </div>
+        <div class="dflex flexcolumn acenter">
+            <img src="pictures/logos/wallet.png" alt="wallet.png" onclick="hideAllSections('wallet_page', 'block')">
+            <p>Wallet</p>
+        </div>
+        <div class="dflex flexcolumn acenter">
+            <img src="pictures/logos/account.png" alt="account.png" onclick="hideAllSections('account_page', 'block')">
+            <p>Account</p>
+        </div>
+    </nav>
+
+
+</body>
+
+
+
+<script src="script.js"></script>
+
+</html>

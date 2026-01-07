@@ -1,0 +1,1134 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.phone_container,
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    font-family: sans-serif;
+    /* Replace with your font stack */
+
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+/* 6. Avoid text overflows */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+.dnone {
+    display: none;
+}
+
+.dflex {
+    display: flex;
+}
+
+.flexcolumn {
+    flex-direction: column;
+}
+
+.flexrow {
+    flex-direction: row;
+}
+
+.jcenter {
+    justify-content: center;
+}
+
+.jspacebetween {
+    justify-content: space-between;
+}
+
+.acenter {
+    align-items: center;
+}
+
+.ascenter {
+    align-self: center;
+}
+
+.jspaceevenly {
+    justify-content: space-evenly;
+}
+
+.minheight {
+    min-height: 85vh;
+}
+
+.fontweightlow {
+    font-weight: 500;
+}
+
+.navigation.short-section {
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+
+
+.container {
+    width: 100%;
+    /* Take up available space on small screens */
+    max-width: 1200px;
+    /* STOP expanding once you hit 1200px */
+    margin-left: auto;
+    /* Magic centering sauce */
+    margin-right: auto;
+    /* Magic centering sauce */
+    padding-left: 20px;
+    /* Prevent text touching edge on mobile */
+    padding-right: 20px;
+}
+
+.base_img_size {
+    width: 30px;
+    max-width: 100%;
+    height: auto;
+}
+
+.base_img_size_container img {
+    width: 30px;
+    max-width: 100%;
+    height: auto;
+}
+
+.smallest_img_size_container img {
+    width: 18px;
+    max-width: 100%;
+    height: auto;
+}
+
+.smallest_img_size {
+    width: 18px;
+    max-width: 100%;
+    height: auto;
+}
+
+.large_img_size_container {
+    width: 100px;
+    max-width: 100%;
+    height: auto;
+}
+
+.large_img_size {
+    width: 100px;
+    max-width: 100%;
+    height: auto;
+}
+
+
+.borderradius {
+    border-radius: 30px;
+}
+
+.borderradiuslow {
+    border-radius: 20px;
+}
+
+
+button {
+    border-width: 0px;
+}
+
+html {
+    background-color: rgba(255, 0, 0, 0.444);
+}
+
+
+body {
+    max-width: 480px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 0;
+}
+
+.phone_container {
+    max-width: 460px;
+    margin: 0 auto;
+    font-size: 0.8rem;
+    background-color: rgba(201, 199, 199, 0.67);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    /* min-height: 100vh; */
+}
+
+.phone_container>*,
+body>* {
+    padding: 10px 16px;
+    color: rgba(0, 0, 0, 0.844);
+    user-select: none;
+}
+
+
+
+.header {
+    width: 100%;
+    padding-top: 30px;
+}
+
+.logo {
+    font-size: 1.2rem;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.logo img {
+    width: 35px;
+    padding: 5px 0;
+}
+
+.notification {
+    padding: 8px;
+    background-color: rgba(128, 128, 128, 0.142);
+}
+
+.main {
+    width: 100%;
+}
+
+.scanner_card {
+    background-color: white;
+    width: 80%;
+    padding: 20px 15px;
+    padding-top: 0px;
+}
+
+.qr_and_texts {
+    width: 100%;
+}
+
+.texts>div {
+    font-weight: 700;
+}
+
+.tap_option {
+    align-self: flex-end;
+    padding-top: 20px;
+}
+
+.tap_option img {
+    background-color: rgba(128, 128, 128, 0.403);
+}
+
+.barcode_container {
+    padding: 20px 20px;
+    max-width: 100%;
+    width: auto;
+}
+
+.barcode {
+    width: 100%;
+    max-height: 100px;
+}
+
+
+.quick_options {
+    background-color: rgba(255, 0, 0, 0.785);
+    width: 100%;
+    margin: 14px 0;
+    padding: 14px 0;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.quick_options img {
+    color: white;
+    margin-bottom: 5px;
+
+}
+
+
+.all_options {
+    background-color: white;
+    width: 100%;
+    padding: 12px 0;
+
+}
+
+.all_options_row_first,
+.all_options_row_second {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 8px 0;
+}
+
+.all_options_row_first img,
+.all_options_row_second img {
+    margin-bottom: 5px;
+}
+
+
+
+.financial_status {
+    background-color: white;
+    width: 100%;
+    margin: 14px 0;
+    padding: 12px 0;
+    font-size: 1.2rem;
+}
+
+.financial_status>div {
+    width: 100%;
+    padding: 5px 14px;
+}
+
+.financial_status img {
+    max-width: 20px;
+}
+
+.financial_status p {
+    color: rgba(0, 0, 0, 0.613);
+}
+
+.financial_status span {
+    color: rgba(0, 0, 0, 0.79);
+    font-weight: 700;
+}
+
+.add_bal_img {
+    width: 20px;
+    /* pick one side */
+    object-fit: contain;
+}
+
+
+
+.navigation {
+    position: sticky;
+    bottom: 0;
+    /* sticks to bottom of viewport */
+    width: 100%;
+    /* full width of the phone screen */
+    background: #fff;
+    /* give it a background so content doesn’t show through */
+    z-index: 10;
+    padding: 10px !important;
+    padding-bottom: 4px !important;
+    margin: 0 !important;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    font-size: 1rem;
+}
+
+.middle_nav_pay {
+    background-color: rgba(255, 0, 0, 0.785);
+    border-radius: 50px;
+    aspect-ratio: 1/1;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    min-width: 80px;
+    font-size: 1rem;
+}
+
+.middle_nav_pay>img {
+    width: 36px !important;
+}
+
+
+
+
+
+/* js */
+
+/* default: square corners while scrolling */
+body,
+.navigation {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    transition: border-radius 200ms ease;
+}
+
+/* when at bottom: rounded corners */
+.at-bottom body,
+.at-bottom .navigation {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+
+
+.quick_options img:hover {
+    background-color: rgba(255, 255, 255, 0.557);
+    border-radius: 10px;
+    padding: 2px;
+    /* transform: scale(99%); */
+}
+
+.navigation img:hover,
+.all_options img:hover {
+    background-color: rgba(255, 0, 0, 0.447);
+    border-radius: 10px;
+    padding: 3px;
+    transition: 0.1s;
+}
+
+
+.notification:hover,
+.tap_option img:hover {
+    background-color: rgba(255, 0, 0, 0.447);
+    transform: scale(95%);
+
+}
+
+
+.add_bal_img:hover {
+    transform: scale(95%);
+}
+
+
+
+
+
+
+
+
+.hiddensections {
+    padding: 40px;
+    padding-top: 30px;
+}
+
+.hiddensections>h2 {
+    padding-bottom: 16px;
+}
+
+
+.notifications_page {
+    display: flex;
+    flex-direction: column;
+    /* stack notifications vertically */
+    gap: 20px;
+    /* spacing between cards */
+}
+
+.notification_card {
+    background: #fff;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.notification_card:hover {
+    transform: translateY(-5px);
+}
+
+.notification_title {
+    font-weight: bold;
+    margin-bottom: 8px;
+    
+}
+
+.notification_time {
+    font-size: 0.85rem;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.notification_message {
+    font-size: 0.95rem;
+    color: #555;
+}
+
+
+
+.scan_page {
+    /* display: flex; */
+    /* margin-top: 20px; */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin: 0 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #111;
+    color: #fff;
+}
+
+.scanner_box {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    border: 3px solid #0f0;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 100px;
+    margin-top: 30px;
+}
+
+.scanner_line {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: #0f0;
+    animation: scan 2s linear infinite;
+}
+
+@keyframes scan {
+    0% {
+        top: 0;
+    }
+
+    100% {
+        top: 100%;
+    }
+}
+
+.scanner_text {
+    font-size: 1.2rem;
+    color: #0f0;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+.tap_page p {
+    font-weight: 700;
+}
+
+
+
+
+.send_success_page {
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #f9f9f9;
+    
+}
+
+.send_form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.send_form label {
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.send_form input,
+.send_form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+.send_btn {
+    background: rgba(255, 0, 0, 0.447);
+    color: #fff;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.send_btn:hover {
+    background: rgba(255, 0, 0, 0.8)
+}
+
+.send_success {
+    /* display: flex; */
+    /* hidden by default, toggled later */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #f0fff0;
+    color: #2e7d32;
+}
+
+.success_box {
+    text-align: center;
+}
+
+.checkmark {
+    font-size: 4rem;
+    color: #2e7d32;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+.points_page {
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: flex-start;
+  background: #f9f9f9;
+  
+}
+
+.points_balance {
+  margin: 20px 0;
+}
+
+.balance_label {
+  font-size: 1rem;
+  color: #777;
+}
+
+.balance_value {
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgba(255, 0, 0, 0.8)
+}
+
+.points_activity {
+  width: 100%;
+  max-width: 400px;
+  margin: 20px 0;
+}
+
+.points_activity h2 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.points_activity ul {
+  list-style: none;
+  padding: 0;
+}
+
+.points_activity li {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 6px;
+}
+
+.points_actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.redeem_btn,
+.earn_btn {
+  background: rgba(255, 0, 0, 0.447);
+  color: #fff;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.redeem_btn:hover,
+.earn_btn:hover {
+  background: rgba(255, 0, 0, 0.8)
+}
+
+
+
+
+
+
+.history_page {
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: flex-start;
+  background: #f9f9f9;
+  
+}
+
+.history_list {
+  width: 100%;
+  max-width: 500px;
+  margin-top: 20px;
+}
+
+.history_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 12px 16px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+
+.history_left {
+  display: flex;
+  flex-direction: column;
+}
+
+.history_title {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.history_date {
+  font-size: 0.85rem;
+  color: #777;
+}
+
+.history_right {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.history_right.credit {
+  color: #2e7d32; /* green for incoming money */
+}
+
+.history_right.debit {
+  color: #c62828; /* red for outgoing money */
+}
+
+
+
+
+
+
+
+
+
+.topup_page {
+  flex-direction: column;
+  justify-content: flex-start;
+  background: #f9f9f9;
+  
+}
+
+.topup_form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.topup_form label {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.topup_form input,
+.topup_form select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.topup_btn {
+  background: rgba(255, 0, 0, 0.447);
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.topup_btn:hover {
+  background: rgba(255, 0, 0, 0.8)
+}
+
+.topup_success {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #f0fff0;
+  color: #2e7d32;
+}
+
+.checkmark {
+  font-size: 4rem;
+  color: #2e7d32;
+  margin-bottom: 20px;
+}
+
+
+
+
+/* all options */
+.coupon_list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.coupon_item {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 12px;
+  border-radius: 6px;
+}
+
+
+
+
+.coupon_list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.coupon_item {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 12px;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+
+
+
+.bills_list {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  max-width: 400px;
+}
+
+.bills_list li {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bills_list button {
+  background: rgba(255, 0, 0, 0.447);
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.bills_list button:hover {
+  background: rgba(255, 0, 0, 0.8)
+}
+
+
+
+.stamps {
+  display: flex;
+  gap: 8px;
+  font-size: 2rem;
+}
+
+.stamps span {
+  color: gold;
+}
+
+.shopping_page{
+  position: relative;
+}
+
+.shopping_item {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.shopping_item button {
+  background: rgba(255, 0, 0, 0.447);
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.shopping_item button:hover {
+  background: rgba(255, 0, 0, 0.8)
+}
+
+
+.shopping_warning{
+  display: none;
+  position: absolute;
+  bottom: 10px;
+  min-width: 86%;
+  background-color: rgba(255, 0, 0, 0.589);
+  padding: 4px 14px;
+  border-radius: 8px;
+}
+
+
+
+.mileage_page p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.mileage_page button {
+  background: rgba(255, 0, 0, 0.447);
+  color: #fff;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.mileage_page button:hover {
+  background: rgba(255, 0, 0, 0.8)
+}
+
+
+
+.plan {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  width: 100%;
+  max-width: 400px;
+}
+
+
+
+.favorites_page ul {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  max-width: 400px;
+}
+
+.favorites_page li {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+
+
+
+.all_page ul {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  max-width: 400px;
+}
+
+.all_page li {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+
+
+
+
+
+.deals_page .deal_item {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 12px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.deals_page button {
+  background: rgba(255, 0, 0, 0.447);
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.deals_page button:hover {
+  background: rgba(255, 0, 0, 0.8)
+}
+
+
+
+
+
+
+
+.wallet_balance {
+  margin: 20px 0;
+}
+
+.wallet_balance .balance_label {
+  font-size: 1rem;
+  color: #777;
+}
+
+.wallet_balance .balance_value {
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgba(255, 0, 0, 0.8)
+}
+
+.wallet_actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.wallet_actions button {
+  background: rgba(255, 0, 0, 0.447);
+  color: #fff;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.wallet_actions button:hover {
+  background: rgba(255, 0, 0, 0.8)
+}
+
+
+
+
+
+.account_form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.account_form input[disabled] {
+  background: transparent;
+  border: none;
+  
+  font-size: 1rem;
+}
+
+.account_form input:not([disabled]) {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 8px;
+}
+
+.account_actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.account_actions button {
+  background: rgba(255, 0, 0, 0.447);
+  color: #fff;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.account_actions button:disabled {
+  background: #aaa;
+  cursor: not-allowed;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+button {
+  background: #d32f2f;       /* strong red */
+  color: #fff;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.2s ease;
+}
+
+button:hover {
+  background: #b71c1c;       /* darker red on hover */
+}
+
+button:disabled {
+  background: #f19999;       /* lighter red when disabled */
+  cursor: not-allowed;
+}
+
+
+
+
+/* send money */
+.send_money_warning, .top_up_warning{
+  background-color: rgba(255, 0, 0, 0.589);
+  padding: 4px 14px;
+  border-radius: 4pc;
+}
