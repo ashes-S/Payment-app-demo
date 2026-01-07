@@ -1,10 +1,24 @@
-💸 PayStream - Payment App for Demo
+<h1>💸 PayStream - Payment App for Demo</h1>h1>
 A modern, minimalist frontend dashboard for tracking transactions and managing digital payments. Built for speed and visual clarity.
 
-<h2>📸 Screenshots </h2>
+<h1>🛠️ Built With </h1>h1>
+Frontend: Vanilla Javascript
+Styling: CSS
 
-<img width="2391" height="1620" alt="Screenshot 2026-01-07 162651" src="https://github.com/user-attachments/assets/a254d285-556c-4fd5-9ca1-6ea507e0b393" />
+<h1>📸 Screenshots </h1>
+
+<h2>✨ Multiple features </h2>
+<img width="2878" height="1797" alt="image" src="https://github.com/user-attachments/assets/5c9f1165-35b6-40f8-b8bc-f080e6fe4e88" />
+
+<h2>✨ Send Money </h2>
+<img width="2872" height="1795" alt="image" src="https://github.com/user-attachments/assets/3fa8cb0d-fc06-4b68-9d72-254a562aa712" />
+<img width="2879" height="1799" alt="image" src="https://github.com/user-attachments/assets/6ce86b10-138a-4324-be35-2aa7c3557d7d" />
+
+<h2>✨ Scan QR Code </h2>
+<img width="2878" height="1797" alt="image" src="https://github.com/user-attachments/assets/ff591aa4-a608-4cf0-9594-84e887413c4f" />
+
+<h2>✨ Check Transaction History </h2>
+<img width="2869" height="1792" alt="image" src="https://github.com/user-attachments/assets/c1377875-ddeb-4c76-ac6b-ffd51c5e4f5e" />
 
 
-<h2>✨ Check History </h2>
-<img width="2373" height="1622" alt="image" src="https://github.com/user-attachments/assets/4c9a01e9-7f80-4bf9-9997-1e3df48406c4" />
+
