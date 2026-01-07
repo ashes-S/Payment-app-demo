@@ -1,17 +1,16 @@
-<h1>💸 PayStream - Payment App for Demo</h1>h1>
+<h1>💸 PayStream - Payment App for Demo</h1>
 A modern, minimalist frontend dashboard for tracking transactions and managing digital payments. Built for speed and visual clarity.
 
-<h1>🛠️ Built With </h1>h1>
+<h1>🛠️ Built With </h1>
 Frontend: Vanilla Javascript
 Styling: CSS
 
-<h1>📸 Screenshots </h1>
-
-<h2>✨ Multiple features </h2>
+<h2>📸 Multiple features </h2>
 <img width="2878" height="1797" alt="image" src="https://github.com/user-attachments/assets/5c9f1165-35b6-40f8-b8bc-f080e6fe4e88" />
 
 <h2>✨ Send Money </h2>
 <img width="2872" height="1795" alt="image" src="https://github.com/user-attachments/assets/3fa8cb0d-fc06-4b68-9d72-254a562aa712" />
+
 <img width="2879" height="1799" alt="image" src="https://github.com/user-attachments/assets/6ce86b10-138a-4324-be35-2aa7c3557d7d" />
 
 <h2>✨ Scan QR Code </h2>
