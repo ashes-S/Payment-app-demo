@@ -22,5 +22,5 @@ Styling: CSS
 <h2>✨ Tap & Pay </h2>
 <img width="2867" height="1796" alt="image" src="https://github.com/user-attachments/assets/d0f39815-b2de-46b6-8608-1f15070608e4" />
 
-
-
+<h2>🛠️ Coming Soon... </h2>
+Automation Testing for the Functionalities and Content.
