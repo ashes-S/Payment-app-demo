@@ -10,7 +10,7 @@ Styling: CSS
 
 <h2>✨ Send Money </h2>
 <img width="2872" height="1795" alt="image" src="https://github.com/user-attachments/assets/3fa8cb0d-fc06-4b68-9d72-254a562aa712" />
-
+<br>
 <img width="2879" height="1799" alt="image" src="https://github.com/user-attachments/assets/6ce86b10-138a-4324-be35-2aa7c3557d7d" />
 
 <h2>✨ Scan QR Code </h2>
